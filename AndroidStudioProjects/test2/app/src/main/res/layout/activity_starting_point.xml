@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Your Total is =  "
+        android:textSize="45dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/bSub"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="SUB"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+<Button android:id="@+id/loadWebPage"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:text="Load Google"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:onClick="loadWebPage"
+
+    />
+
+
+</LinearLayout>
